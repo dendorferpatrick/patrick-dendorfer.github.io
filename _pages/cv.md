@@ -28,11 +28,12 @@ redirect_from:
   }
    
     
-    p {
+    p.title {
         margin:0;
         font-size: 16px;
         text-align: justify;
         valign:"top";
+        font-weight: bold;
        
     }
     
@@ -97,7 +98,7 @@ redirect_from:
 <img src="{{post.image_url}}">
 </td>
 <td colspan="4"> 
-<p><b>{{post.title}}</b></p>
+<p class="title">{{post.title}}</p>
 <p class="position">{{post.description}}</p>
 {% if post.items %}
 <ul>
@@ -127,7 +128,7 @@ redirect_from:
 <img src="{{post.image_url}}">
 </td>
 <td colspan="4"> 
-<p><b>{{post.title}}</b></p>
+<p class="title">{{post.title}}</p>
 <p class="position">{{post.description}}</p>
 {% if post.items %}
 <ul>
@@ -151,7 +152,7 @@ redirect_from:
 <table>
 {% for post in site.skills %}
 <tr>
-<td><p><b> {{post.title}}:</b></p></td>
+<td><p class="title">{{post.title}}:</p></td>
 <td colspan="5">
 {% for item in post.items %}
 <span id="rcorners1"  style="background:{{post.color}}">
@@ -177,13 +178,12 @@ redirect_from:
 </div>
 
 
+
 <h2>Teaching</h2>
 <div>
-<ul>
+<table>
 {% for post in site.teaching reversed %}
   {% include archive-single-teaching.html %}
 {% endfor %}
-</ul>
+</table>
 </div>
-
-

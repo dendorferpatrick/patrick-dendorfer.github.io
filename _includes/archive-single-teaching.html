@@ -12,9 +12,30 @@
   {% assign title = post.title %}
 {% endif %}
 
-<li><p><a href="{{post.link}}"> <b> [{{post.semester}}] {{title}}</b> </a></p>
-    <p class="position">{{post.position}}, {{post.venue}}</p>
-    {% if post.video_url %}
-    <p class="items">Lecture online <a href="{{post.video_url}}">here</a></p>
-    {% endif %}
-    </li>
+
+
+<tr>
+    <td>
+        <img src="{{post.image_url}}">
+    </td>
+    <td colspan="4">
+        <p class="title"><a href="{{post.link}}"> {{post.title}} </a></p>
+        <p class="position">{{post.position}}, {{post.venue}}</p>
+        {% if post.video_url %}
+        <p class="items">Lecture online <a href="{{post.video_url}}">here</a></p>
+        {% endif %}
+
+    </td>
+    <td><p class="dates">{{post.semester}}</p></td>
+
+</tr>
+
+
+
+
+<!--<li><p><a href="{{post.link}}"> <b>{{title}}</b> </a></p>-->
+<!--    <p class="position">{{post.semester}}, {{post.position}}, {{post.venue}}</p>-->
+<!--    {% if post.video_url %}-->
+<!--    <p class="items">Lecture online <a href="{{post.video_url}}">here</a></p>-->
+<!--    {% endif %}-->
+<!--    </li>-->

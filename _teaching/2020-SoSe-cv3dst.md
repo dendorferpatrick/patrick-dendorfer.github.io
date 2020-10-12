@@ -8,6 +8,7 @@ link: "https://dvl.in.tum.de/teaching/cv3dst-ss20/"
 semester: "Summer 20"
 position: "Guest Lecturer"
 video_url: "https://www.youtube.com/watch?v=dSQMJBg47es"
+image_url: "https://dvl.in.tum.de/img/lectures/cv3dst.png"
 ---
 
 

@@ -7,5 +7,6 @@ date: 2019-03-01
 position: "Teaching exercise sessions"
 link: "https://dvl.in.tum.de/teaching/i2dl-ss19/"
 semester: "Summer 19"
+image_url: "https://dvl.in.tum.de/img/lectures/introdl.png"
 ---
 
