@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Patrick Dendorfer"
   avatar           : "dendorfer.jpg"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  bio              : "I am Deep Learning Ph.D. student, innovation enthusiast, and curious mind."
+  location         : "Munich, Germany"
   employer         :
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=7_AZkTkAAAAJ&hl=en"
-  email            :
+  email            : "patrick.dendorfer@tum.de"
   researchgate     :
   uri              :
   bitbucket        :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      :
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/patrick-dendorfer-b64136b4/"
+  linkedin         : "patrick-dendorfer-b64136b4/"
   orcid            :
   pinterest        :
   soundcloud       :
@@ -181,10 +181,18 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  skills:
+    output: true
+  education:
+    output: true
+  work:
+    output: true
+  workshops:
+    output: true
+  talks:
     output: true
     permalink: /:collection/:path/
-  talks:
+  research:
     output: true
     permalink: /:collection/:path/
 
@@ -209,15 +217,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
+
   # _publications
   - scope:
       path: ""
@@ -227,21 +227,12 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _research
   - scope:
       path: ""
-      type: portfolio
+      type: research
     values:
       layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
       author_profile: true
       share: true
 

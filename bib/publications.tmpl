@@ -1,0 +1,84 @@
+{% set prev_year = [2001] %}
+<table class="table publications">
+<tbody>
+	{% for entry in entries %}
+
+			{% if entry.fields['year'] != prev_year[0] %}
+				<span class="pubs-date date">
+
+				<td>
+				<h2>{{ entry.fields['year'] }}</h2>
+				</td>
+				{% if prev_year.pop() %}{% endif %}
+				{% if prev_year.append(entry.fields['year']) %}{% endif %}
+				</span>
+			{% endif %}
+
+
+	{% if entry.fields['project-key'] %}
+	<tr class="{{ entry.fields['project-key']|escape }}
+	{% else %}
+	<tr class="
+	{% endif %}
+
+	{% set author_list = entry.persons['author'] %}
+	{% for author in author_list %}
+		{{ ' '.join(author.last()).replace('*', '') }}
+	{% endfor %}
+	">
+
+		<td class="publication">
+			<span class="pubtitle">
+				{%- set url = entry|main_url %}
+				<img style="float: left;margin-right: 15px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);border-radius: 10px;width: 150px;height: 150px" src="{{ url.base }}/img/publications/{{ entry.fields['icon'] }}" alt="PDF"/>
+				<a href="{{ url|escape }}">{{ entry|title }}</a>.
+			</span><br />
+			<span class="authors">
+				<i> {{ entry.persons['author']|author_list }}{% if entry.fields['equal_contribution'] %} {{ entry.fields['equal_contribution'] }}{% endif %}.
+				</i>
+			</span><br />
+			{% if entry.fields['journal'] %}
+				<span class="venue">{{ entry.fields['journal'] -}}</span>,
+			{% endif %}
+			{% if entry.fields['publisher'] %}
+				<span class="venue">{{ entry.fields['publisher']|escape }}</span>,
+			{% endif %}
+
+			{{ entry.fields['year']|escape }}.
+			{%- if entry.fields['note'] %}
+			<span class="note">
+			{{ entry.fields['note']|escape }}.
+			</span>
+			{%- endif %}
+			<br />
+			<span class="fa fa-fw fa-file-pdf-o"></span><a target="_blank" href="{{ url|escape }}">[pdf]</a>
+			{% if entry.fields['supplementary'] %}
+			<span class="fa fa-fw fa-copy"></span><a target="_blank" href="{{ entry.fields['supplementary']|escape }}">[supplementary]</a>
+			{% endif %}
+			{% if entry.fields['code'] %}
+			<span class="fa fa-fw fa-code"></span><a target="_blank" href="{{ entry.fields['code']|escape }}">[code]</a>
+			{% endif %}
+			{% if entry.fields['presentation'] %}
+			<span class="fa fa-fw fa-file-powerpoint-o"></span><a target="_blank" href="{{ entry.fields['presentation']|escape }}">[presentation]</a>
+			{% endif %}
+			{% if entry.fields['poster'] %}
+			<span class="fa fa-fw fa-image"></span><a target="_blank" href="{{ entry.fields['poster']|escape }}">[poster]</a>
+			{% endif %}
+			{% if entry.fields['video'] %}
+			<span class="fa fa-fw fa-video-camera"></span><a target="_blank" href="{{ entry.fields['video']|escape }}">[video]</a>
+			{% endif %}
+			{% if entry.fields['challenge'] %}
+			<span class="fa fa-fw fa-trophy"></span><a target="_blank" href="{{ entry.fields['challenge']|escape }}">[challenge]</a>
+			{% endif %}
+			{% if entry.fields['cvprdaily'] %}
+			<span class="fa fa-fw fa-newspaper-o"></span><a target="_blank" href="{{ entry.fields['cvprdaily']|escape }}">[CVPR daily]</a>
+			{% endif %}
+ 			{% if entry.fields['website'] %}
+                        <span class="fa fa-globe"></span><a target="_blank" href="{{ entry.fields['website']|escape }}">[Project Page]</a>
+                        {% endif %}
+			</p>
+		<td>
+	</tr>
+	{% endfor %}
+</tbody>
+</table>
