@@ -1,10 +1,6 @@
 {% include base_path %}
 
-{% if post.header.teaser %}
-  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
-{% else %}
-  {% assign teaser = site.teaser %}
-{% endif %}
+
 
 {% if post.id %}
   {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
@@ -12,9 +8,14 @@
   {% assign title = post.title %}
 {% endif %}
 
-<li><p><a href="{{post.link}}"> <b> [{{post.semester}}] {{title}}</b> </a></p>
-    <p class="position">{{post.position}}, {{post.venue}}</p>
-    {% if post.video_url %}
-    <p class="items">Lecture online <a href="{{post.video_url}}">here</a></p>
-    {% endif %}
-    </li>
+
+<tr>
+    <td>
+        <img src="{{post.image_url}}">
+    </td>
+    <td colspan="4">
+        <p><b>{{post.title}}</b></p>
+        <p class="position">{{post.location}}</p></td>
+    <td><p class="dates">{{post.duration}}</p></td>
+
+</tr>
