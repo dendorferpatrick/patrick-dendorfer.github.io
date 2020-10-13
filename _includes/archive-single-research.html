@@ -15,15 +15,25 @@
 
 <style type="text/css">
 
-  table {
-    border: none;
-    table-layout: fixed;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+
+
+  img.research {
+    width: 100%;
+  }
+  p.text {
+    margin-bottom: 1em;
+    font-size: 16px;
+    text-align: justify;
+    valign:"top";
 
   }
 
+  table.TabResearch {
+    border: none;
+    table-layout: fixed;
+    width: 100%;
+
+  }
 
   td img{
     display: block;
@@ -31,53 +41,12 @@
     margin-right: auto;
 
   }
-  h1 {
-    font-weight:300;
-  }
-
-  p {
-    margin:0;
-    font-size: 16px;
-    text-align: justify;
-    valign:"top";
-
-  }
-
-  p.dates {
-    color: #D3D3D3;
-    font-size: 14px;
-    text-align: justify;
-    valign:"top";
-
-  }
-
-  p.position {
-
-
-  }
-
-
-  td { text-align: left;
-    vertical-align: center;
-    border: none;
-    margin-bottom: 500px
-
-  }
-
-  #rcorners1 {
-    border-radius: 25px;
-    background: #73AD21;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-
-  }
 
 
 
-  }
+
 </style>
+
 
 
 <div class="{{ include.type | default: "list" }}__item">
@@ -85,7 +54,6 @@
 
 
     <h2 class="archive__item-title" itemprop="headline">
-
      {{title}}
     </h2>
 

@@ -4,6 +4,11 @@ title: "Research"
 permalink: /research/
 author_profile: true
 ---
+
+
+
+
+
 {% include base_path %}
 
 {% assign research_ordered = site.research | sort: 'date' | reverse %}
