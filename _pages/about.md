@@ -53,5 +53,5 @@ redirect_from:
 
 <p class="text">Before starting a Ph.D. in Computer Vision, I studied physics at the Ludwig-Maximilians Universität, Universidade de Lisboa, and University of Oxford.</p>
 
-<p class="text">I am from Munich and I really like the ne to the Bavarian mountains. In my free time I enjoy running, playing guitar, and meeting up with friends for a drink or two.</p>
+<p class="text">I am originally from Munich and I am a big fan of the Bavarian mountains. In my free time I enjoy running, playing guitar, and meeting up with friends for a drink or two.</p>
  
