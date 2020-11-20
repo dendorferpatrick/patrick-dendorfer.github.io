@@ -6,5 +6,5 @@ excerpt:
 date: 2020-11-1
 venue: 'International Conference of Computer Vision (IJCV)'
 paperurl: ''
-authors: "Patrick Dendorfer, Aljoša Ošep, Anton Milan, Konrad Schindler, Daniel Cremers, Ian Reid, and Laura Leal-Taixé."
+authors: "Patrick Dendorfer, Aljoša Ošep, Anton Milan, Konrad Schindler, Daniel Cremers, Ian Reid, and Laura Leal-Taixé"
 ---
