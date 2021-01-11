@@ -2,7 +2,7 @@
 title: "Consulting Intern"
 collection: work
 description: "KPMG, Munich"
-image_url: "https://media-exp1.licdn.com/dms/image/C4D0BAQGpXBIuBuVJuQ/company-logo_100_100/0?e=1609977600&v=beta&t=fldtx2uqJYTPUUsStfhysTfvGLVrH_WKhd8-4t7iGcM"  
+image_url: "../images/kpmg.jpg"
 duration: "Apr 2016 - Jul 2016"
 date: 2016-04-01
 items:
