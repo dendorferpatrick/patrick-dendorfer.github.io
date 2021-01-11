@@ -2,7 +2,7 @@
 title: "Technical University of Munich"
 collection: education
 description: "Ph.D. candidate at the Dynamic Vision and Learning Group"
-image_url: "images/tum.jpg"
+image_url: "../images/tum.jpg"
 duration: "2018 - now"
 date: 2018-06-01
 items: 
