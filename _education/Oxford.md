@@ -2,7 +2,7 @@
 title: "Master Thesis"
 collection: education
 description: "University of Oxford, CABDyN Center"
-image_url: "images/oxford.png"  
+image_url: "../images/oxford.png"  
 duration: "Aug 2016 - Sep 2017"
 date: 2016-08-01
 items:
