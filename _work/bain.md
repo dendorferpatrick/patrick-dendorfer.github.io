@@ -2,7 +2,7 @@
 title: "Consulting Intern"
 collection: work
 description: "Bain & Company, Munich"
-image_url: "https://media-exp1.licdn.com/dms/image/C4E0BAQFa88wc8CFUpg/company-logo_100_100/0?e=1609977600&v=beta&t=4eg9L_GOLjJeaN0JdWBeFA_dH5Y-eaJ7oSWoxsN3mXw"  
+image_url: "../images/bain.jpg"
 duration: "Oct 2017 - Dec 2017"
 date: 2017-10-01
 items:
