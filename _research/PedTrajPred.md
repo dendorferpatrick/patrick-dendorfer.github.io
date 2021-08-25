@@ -15,7 +15,7 @@ In recent years, many research papers have leveraged the power of generative mod
 <p class="text">
 In my research I particulary study multimodality of trajectory predictions. In particualr, I am interested in building models that predict a set of divers but still realistic trajectories.
 </p>
-<h3>Goal-GAN</h3>
+<!-- <h3>Goal-GAN</h3>
 <p class="text">
 In our ACCV 20 oral paper  
 <a href="https://arxiv.org/pdf/2010.01114.pdf">"<em>Goal-GAN: Multimodal Trajectory Prediction Based on Goal Position Estimation</em>"</a> we build a model that learns a discrete probaility 
@@ -38,7 +38,7 @@ decoder to generate the final trajectory.
 </table>
 </div>
 <p class="text">For more information about Goal-GAN check out the links below:</p>
-<!-- <table class="TabResearch">
+<table class="TabResearch">
 <tr>
 <td><p class="text" style="text-align: center"><span class="fa fa-fw fa-file-pdf-o"></span><a target="_blank" href="https://arxiv.org/pdf/2010.01114.pdf">[pdf]</a></p></td>
 <td><p class="text" style="text-align: center"><span class="fa fa-fw fa-code"></span><a target="_blank" href="https://github.com/dendorferpatrick/GoalGAN">[code]</a></p></td>
