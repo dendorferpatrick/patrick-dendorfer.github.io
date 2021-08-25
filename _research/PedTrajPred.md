@@ -15,7 +15,7 @@ In recent years, many research papers have leveraged the power of generative mod
 <p class="text">
 In my research I particulary study multimodality of trajectory predictions. In particualr, I am interested in building models that predict a set of divers but still realistic trajectories.
 </p>
-<!-- <h3>Goal-GAN</h3>
+<h3>Goal-GAN</h3>
 <p class="text">
 In our ACCV 20 oral paper  
 <a href="https://arxiv.org/pdf/2010.01114.pdf">"<em>Goal-GAN: Multimodal Trajectory Prediction Based on Goal Position Estimation</em>"</a> we build a model that learns a discrete probaility 
@@ -45,13 +45,13 @@ decoder to generate the final trajectory.
 <td><p class="text" style="text-align: center"><span class="fa fa-fw fa-video-camera"></span><a target="_blank" href="https://youtu.be/SoMbBNpAQOw">[video]</a></p></td>
 <td><p class="text" style="text-align: center"><span class="fa fa-globe"></span><a target="_blank" href="https://dendorferpatrick.github.io/GoalGAN/">[Project Page]</a></p></td>
 </tr>
-</table> -->
+</table>
 
 <h3>MG-GAN</h3>
 <p class="text">
 In our ICCV 21 paper  <a href="https://arxiv.org/pdf/2108.09274.pdf">"<em>MG-GAN: A Multi-Generator Model Preventing Out-of-Distribution Samples in Pedestrian Trajectory Prediction</em>"</a>  we propose a multi-generator prediction model that can learns a multimodal trajectory distribution. In the paper, we decompose the task of trajectory prediction into two stages in which we first determine the likelihood of the generator producing realistic trajectories and then predict a trajectory with a selected generator. 
 </p>
-<img src="{{base_url}}/images/research/TrajPed/MGGAN.png" />
+<!-- <img src="{{base_url}}/images/research/TrajPed/MGGAN.png" /> -->
 <p class="text">For more information about MG-GAN check out the links below:</p>
 <table class="TabResearch">
 <tr>
@@ -61,6 +61,7 @@ In our ICCV 21 paper  <a href="https://arxiv.org/pdf/2108.09274.pdf">"<em>MG-GAN
 <td><p class="text" style="text-align: center"><span class="fa fa-globe"></span><a target="_blank" href="https://selflein.github.io/MG-GAN/">[Project Page]</a></p></td>
 </tr>
 </table>
+
 <h3>Student Projects</h3>
 <p class="text">
 Next to my main research I constantly supervise students for a guided research project or their theses, especially in the field of pedestrian trajectory prediction. If you are a student from TU Munich and motivated in doing a research project in the field of Pedestrian Trajectory Prediction please contact me via
