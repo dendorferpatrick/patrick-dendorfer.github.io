@@ -18,8 +18,7 @@ In my research I particulary study multimodality of trajectory predictions. In p
 <h3>Goal-GAN</h3>
 <p class="text">
 In our ACCV 20 oral paper  
-<a href="https://arxiv.org/pdf/2010.01114.pdf">"<em>
-Goal-GAN: Multimodal Trajectory Prediction Based on Goal Position Estimation</em>"</a> we build a model that learns a discrete probaility 
+<a href="https://arxiv.org/pdf/2010.01114.pdf">"<em>Goal-GAN: Multimodal Trajectory Prediction Based on Goal Position Estimation</em>"</a> we build a model that learns a discrete probaility 
 map of future intermediate goal positions. These goal positions are used to pre-condition the 
 decoder to generate the final trajectory.
 </p>
@@ -39,14 +38,14 @@ decoder to generate the final trajectory.
 </table>
 </div>
 <p class="text">For more information about Goal-GAN check out the links below:</p>
-<table class="TabResearch">
+<!-- <table class="TabResearch">
 <tr>
 <td><p class="text" style="text-align: center"><span class="fa fa-fw fa-file-pdf-o"></span><a target="_blank" href="https://arxiv.org/pdf/2010.01114.pdf">[pdf]</a></p></td>
 <td><p class="text" style="text-align: center"><span class="fa fa-fw fa-code"></span><a target="_blank" href="https://github.com/dendorferpatrick/GoalGAN">[code]</a></p></td>
 <td><p class="text" style="text-align: center"><span class="fa fa-fw fa-video-camera"></span><a target="_blank" href="https://youtu.be/SoMbBNpAQOw">[video]</a></p></td>
 <td><p class="text" style="text-align: center"><span class="fa fa-globe"></span><a target="_blank" href="https://dendorferpatrick.github.io/GoalGAN/">[Project Page]</a></p></td>
 </tr>
-</table>
+</table> -->
 
 <h3>MG-GAN</h3>
 <p class="text">
