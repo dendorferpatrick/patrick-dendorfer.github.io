@@ -46,7 +46,6 @@ decoder to generate the final trajectory.
 <td><p class="text" style="text-align: center"><span class="fa fa-globe"></span><a target="_blank" href="https://dendorferpatrick.github.io/GoalGAN/">[Project Page]</a></p></td>
 </tr>
 </table>
-
 <h3>MG-GAN</h3>
 <p class="text">
 In our ICCV 21 paper  <a href="https://arxiv.org/pdf/2108.09274.pdf">"<em>MG-GAN: A Multi-Generator Model Preventing Out-of-Distribution Samples in Pedestrian Trajectory Prediction</em>"</a>  we propose a multi-generator prediction model that can learns a multimodal trajectory distribution. In the paper, we decompose the task of trajectory prediction into two stages in which we first determine the likelihood of the generator producing realistic trajectories and then predict a trajectory with a selected generator. 
@@ -57,7 +56,7 @@ In our ICCV 21 paper  <a href="https://arxiv.org/pdf/2108.09274.pdf">"<em>MG-GAN
 <tr>
 <td><p class="text" style="text-align: center"><span class="fa fa-fw fa-file-pdf-o"></span><a target="_blank" href="https://arxiv.org/pdf/2108.09274.pdf">[pdf]</a></p></td>
 <td><p class="text" style="text-align: center"><span class="fa fa-fw fa-code"></span><a target="_blank" href="https://github.com/selflein/MG-GAN">[code]</a></p></td>
-<td><p class="text" style="text-align: center"><span class="fa fa-fw fa-video-camera"></span><a target="_blank" href="__blank">[video]</a></p></td>
+<td><p class="text" style="text-align: center"><span class="fa fa-fw fa-video-camera"></span><a target="_blank" href="https://www.youtube.com/watch?v=pHD_4fEQyKA">[video]</a></p></td>
 <td><p class="text" style="text-align: center"><span class="fa fa-globe"></span><a target="_blank" href="https://selflein.github.io/MG-GAN/">[Project Page]</a></p></td>
 </tr>
 </table>
