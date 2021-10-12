@@ -60,7 +60,6 @@ In our ICCV 21 paper  <a href="https://arxiv.org/pdf/2108.09274.pdf">"<em>MG-GAN
 <td><p class="text" style="text-align: center"><span class="fa fa-globe"></span><a target="_blank" href="https://selflein.github.io/MG-GAN/">[Project Page]</a></p></td>
 </tr>
 </table>
-
 <h3>Student Projects</h3>
 <p class="text">
 Next to my main research I constantly supervise students for a guided research project or their theses, especially in the field of pedestrian trajectory prediction. If you are a student from TU Munich and motivated in doing a research project in the field of Pedestrian Trajectory Prediction please contact me via
